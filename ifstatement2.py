@@ -50,7 +50,7 @@ if day:
 else:
     print(S3)
 
-grade=67
+grade=56
 if grade>0 and grade<=30:
     print("terribly failed")
 elif grade>30 and grade<=45:
@@ -80,6 +80,28 @@ elif day=="sunday":
 else:
     print("invalid day")
 
+#job='..."
+#Salary-->
+# Google-->550000
+# Facebok--450000$
+# Twitter-->300000$
+# Amazon-->600,000$
+# Netflix--500k$
+
+jobs="browser".lower()
+if jobs== "google":
+    print(550000)
+elif jobs=="facebook":
+    print(450000)
+elif jobs=="twitter":
+    print(300000)
+elif jobs=="amazon":
+    print(600000)
+elif jobs=="netflix":
+    print(500000)
+
+else:
+    print("invalid job")
 
 
 
