@@ -62,3 +62,24 @@ elif grade>=60 and grade<=80:
 else:
     print("invalid grade")
 
+#Days of the week
+
+day="SAturday".lower()
+if day=="monday":
+    print("wash the dishes")
+elif day=="tuesday":
+    print("tidy the room")
+elif day=="wednesday":
+    print("attend the meeting")
+elif day=="thursday":
+    print("wash the clothes")
+elif day=="saturday":
+    print("go to church")
+elif day=="sunday":
+    print("visit grandpa")
+else:
+    print("invalid day")
+
+
+
+
