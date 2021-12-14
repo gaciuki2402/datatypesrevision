@@ -1,0 +1,32 @@
+countries = ['nigeria', 'korea', 'china', 'kenya', 'south africa']
+print(countries)
+print(countries[1])
+print(countries[1:])
+print(countries[1:4])
+print(type(countries))
+countries.insert(0, 'africa')
+print(countries)
+
+list1 = [1, 2, 3, 4, 5]
+list2 = ['banana', 'apple', 'mangoes', 'oranges']
+list1.extend(list2)
+print(list1)
+list1.append('cherry')
+print(list1)
+print('length of list 1 is', len(list1))
+list2.insert(1, 'cherry')
+print(list2)
+list2.remove('banana')
+print(list2)
+# list2.clear()
+# print(list2)
+print(list2.index('mangoes'))
+list3 = [6, 7, 8, 5, 9, 87]
+list3.sort()
+print(list3)
+list3.reverse()
+print(list3)
+list2.reverse()
+print(list2)
+list2.pop()
+print(list2)
