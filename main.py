@@ -60,7 +60,7 @@ if isRaining:
 else:
     print("wear light clothes")
 
-isNight=False
+isNight=True
 if isNight:
     print("It's dark: Lights switched on")
 else:
@@ -78,7 +78,7 @@ else:#False
 #adult 35-60
 #Old 60>
 
-age=-340
+age=13
 if age>0 and age<=10:
     print("Baby")
 elif age>=11 and age<18:

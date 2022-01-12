@@ -87,7 +87,7 @@ else:
 # Twitter-->300000$
 # Amazon-->600,000$
 # Netflix--500k$
-a
+
 jobs="browser".lower()
 if jobs== "google":
     print(550000)
