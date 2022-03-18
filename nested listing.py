@@ -5,8 +5,14 @@ print(names[2][2][1])
 print(names[2][0])
 
 names2=['immanuel','jared',['frank','irene',['patterson','bruno'],'peter']]
+domestic_animals=["cat","dog","kitten",["goat","sheep"],"camel","pig",]
+print(domestic_animals[5])
+
+print(domestic_animals)
+
 # names.extend(names2[2][3])
 # print(names)
+#names.insert(3,names2[2][3])
 names.insert(3,names2[2][3])
 print(names)
 # n=print(names2[2][1][1])

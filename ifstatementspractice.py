@@ -1,4 +1,4 @@
-score=100
+score=345
 if score>=400 and score<500:
     print("National school")
 elif score>=350 and score<400:

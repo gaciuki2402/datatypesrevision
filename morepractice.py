@@ -1,4 +1,4 @@
-score=4
+score=50
 if score>=85 and score<=100:
     print("Grade:A")
 elif score>=77 and score<=84:
